@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lambbit 앱 — 다운로드</title>
+<meta name="description" content="LambbitDownloader · LambbitRef · LambbitVector — 무료 데스크톱 앱. 영상 다운로드, 레퍼런스 보드, 이미지 벡터화.">
+<style>
+  :root{--bg:#15161a;--panel:#1c1e24;--panel2:#23262e;--line:#2e3138;--txt:#e7e9ee;--dim:#9aa0ad;--accent:#5b8cff;--accent2:#4a78e6;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--txt);font-family:"Segoe UI","Malgun Gothic",system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px;}
+  header{text-align:center;padding:70px 20px 40px;}
+  .logo{font-size:34px;font-weight:800;letter-spacing:.5px;}
+  .logo span{color:var(--accent);}
+  .tag{margin-top:14px;color:var(--dim);font-size:16px;line-height:1.7;}
+  .badge{display:inline-block;margin-top:18px;font-size:12px;color:var(--accent);border:1px solid var(--accent);border-radius:20px;padding:5px 14px;opacity:.85;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;padding:20px 0 50px;}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:26px;display:flex;flex-direction:column;transition:.15s;}
+  .card:hover{border-color:#3b4150;transform:translateY(-3px);}
+  .card .ic{width:72px;height:72px;border-radius:16px;object-fit:cover;background:#000;}
+  .card h2{font-size:20px;margin:16px 0 4px;}
+  .card .ver{font-size:12px;color:var(--dim);font-weight:400;}
+  .card .desc{color:var(--dim);font-size:14px;line-height:1.75;margin:12px 0 14px;flex:1;}
+  .feat{list-style:none;padding:0;margin:0 0 20px;display:flex;flex-direction:column;gap:7px;}
+  .feat li{font-size:13px;color:var(--dim);padding-left:20px;position:relative;}
+  .feat li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700;}
+  .dl{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--accent);color:#fff;font-weight:700;font-size:14.5px;padding:13px;border-radius:11px;transition:.12s;}
+  .dl:hover{background:var(--accent2);}
+  .dl small{font-weight:400;opacity:.8;}
+  .os{text-align:center;font-size:11px;color:var(--dim);margin-top:9px;}
+  footer{text-align:center;color:var(--dim);font-size:12.5px;padding:30px 20px 60px;border-top:1px solid var(--line);line-height:1.9;}
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">Lambbit<span>Apps</span></div>
+    <div class="tag">디자이너·크리에이터를 위한 무료 데스크톱 도구 모음<br>설치하면 자동 업데이트됩니다.</div>
+    <div class="badge">Windows · 무료</div>
+  </header>
+
+  <main class="wrap">
+    <div class="grid">
+      <div class="card" data-repo="lambbitdownloader">
+        <img class="ic" src="./lambbitdownloader.png" alt="LambbitDownloader">
+        <h2>LambbitDownloader <span class="ver"></span></h2>
+        <div class="desc">링크만 붙여넣으면 영상·이미지·음악을 골라 다운로드. WebP·WebM·MP4·GIF·MP3 변환까지.</div>
+        <ul class="feat">
+          <li>YouTube · Vimeo · Instagram · Pinterest · Behance · SoundCloud 등</li>
+          <li>단일 영상 링크는 붙여넣기만 하면 바로 저장</li>
+          <li>이미지↔WebP, 영상↔WebM/MP4 변환 탭</li>
+        </ul>
+        <a class="dl" target="_blank" rel="noopener">다운로드 <small>· Windows</small></a>
+        <div class="os">Windows 10/11 · 설치형</div>
+      </div>
+
+      <div class="card" data-repo="lambbitref">
+        <img class="ic" src="./lambbitref.png" alt="LambbitRef">
+        <h2>LambbitRef <span class="ver"></span></h2>
+        <div class="desc">이미지·GIF·영상·오디오를 자유롭게 배치하는 레퍼런스 보드 (PureRef 스타일).</div>
+        <ul class="feat">
+          <li>URL 영상 임베드 · 드로잉 · 텍스트 메모</li>
+          <li>그룹·정렬·자동 배치 · 프로젝트 저장(.naur)</li>
+          <li>다크·라이트·글래스 테마</li>
+        </ul>
+        <a class="dl" target="_blank" rel="noopener">다운로드 <small>· Windows</small></a>
+        <div class="os">Windows 10/11 · 설치형</div>
+      </div>
+
+      <div class="card" data-repo="lambbitvector">
+        <img class="ic" src="./lambbitvector.png" alt="LambbitVector">
+        <h2>LambbitVector <span class="ver"></span></h2>
+        <div class="desc">이미지를 깔끔한 SVG 벡터로 변환. 원본↔벡터 비교 슬라이더와 프리셋 제공.</div>
+        <ul class="feat">
+          <li>VTracer 엔진 · 로고/일러스트/사진/라인아트 프리셋</li>
+          <li>색상 정밀도·부드러움 실시간 조정</li>
+          <li>SVG · PNG 내보내기</li>
+        </ul>
+        <a class="dl" target="_blank" rel="noopener">다운로드 <small>· Windows</small></a>
+        <div class="os">Windows 10/11 · 설치형</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    LambbitApps · GitHub: <a href="https://github.com/lambbitsoft" style="color:var(--accent)">@lambbitsoft</a><br>
+    Windows용 무료 배포 · 첫 설치 후 자동 업데이트
+  </footer>
+
+  <script>
+    const OWNER = 'lambbitsoft';
+    document.querySelectorAll('.card').forEach(async (card) => {
+      const repo = card.dataset.repo;
+      const btn = card.querySelector('.dl');
+      const releasesUrl = `https://github.com/${OWNER}/${repo}/releases/latest`;
+      btn.href = releasesUrl;   // fallback
+      try {
+        const r = await (await fetch(`https://api.github.com/repos/${OWNER}/${repo}/releases/latest`)).json();
+        if (r.tag_name) card.querySelector('.ver').textContent = 'v' + r.tag_name.replace(/^v/, '');
+        const exe = (r.assets || []).find(a => /setup.*\.exe$/i.test(a.name)) || (r.assets || []).find(a => /\.exe$/i.test(a.name));
+        if (exe) btn.href = exe.browser_download_url;
+      } catch (e) {}
+    });
+  </script>
+</body>
+</html>
